@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "personagem.h"
+#include <string.h>
 
 void mostrarStatus (Ficha *personagem) {
 
@@ -8,5 +9,5 @@ void mostrarStatus (Ficha *personagem) {
     printf ("Vida: %d\n", personagem->vida);
     printf ("Defesa: %d\n", personagem->defesa);
     printf ("Ataque: %d\n", personagem->ataque);
-    printf ("==============================\n");
+    printf ("==============================\n\n\n");
 }

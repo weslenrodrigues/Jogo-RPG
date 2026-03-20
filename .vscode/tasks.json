@@ -9,6 +9,7 @@
 				"src/main.c",
 				"src/personagem.c",
 				"src/inicio.c",
+				"src/batalha.c",
 				"-Iinclude",
 				"-o",
 				"build/jogo.exe"
