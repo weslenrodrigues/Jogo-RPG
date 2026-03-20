@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "gcc",
+			"args": [
+				"src/main.c",
+				"src/personagem.c",
+				"src/inicio.c",
+				"-Iinclude",
+				"-o",
+				"build/jogo.exe"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}

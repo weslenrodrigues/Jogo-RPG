@@ -1,3 +1,8 @@
+#ifndef PERSONAGEM_H
+#define PERSONAGEM_H
+
+#include <string.h>
+
 typedef struct {
 
     char nome[50];
@@ -6,6 +11,6 @@ typedef struct {
     int ataque;
 } Ficha;
 
-void atacar (Ficha*atacante, Ficha*alvo);
-
 void mostrarStatus (Ficha*personagem);
+
+#endif
