@@ -3,8 +3,7 @@
 
 void inicio () {
 
-    printf ("\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf ("==============================\n");
-    printf ("Bem-Vindo ao Jogo Generico de Rpg\n");
-    printf ("==============================\n\n\n");
+    printf ("===========================================\n");
+    printf ("==== BEM VINDO AO JOGO GENERICO DE RPG ====\n");
+    printf ("===========================================");
 }
